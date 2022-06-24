@@ -1,1 +1,1 @@
-<annotation><folder>all</folder><filename>234.jpg</filename><path>C:\projects\»»\New_dataset\teeth\all\234.jpg</path><object><name>teeth</name><bndbox><bndbox>199</bndbox><bndbox>122</bndbox><bndbox>221</bndbox><bndbox>139</bndbox></bndbox></object></annotation>
+<annotation><folder>all</folder><filename>234.jpg</filename><path>teeth\all\234.jpg</path><object><name>teeth</name><bndbox><bndbox>199</bndbox><bndbox>122</bndbox><bndbox>221</bndbox><bndbox>139</bndbox></bndbox></object></annotation>
