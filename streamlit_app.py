@@ -18,6 +18,8 @@ class ObjectDetection:
         return cv2.imread(self.path_to_photo)
 
     def load_model(self, PATH_TO_YLOLOV, YOLOV_MODEL):
+        PATH_TO_YLOLOV=PATH_TO_YLOLOV
+        YOLOV_MODEL=YOLOV_MODEL
         model = torch.hub.load(PATH_TO_YLOLOV, 'custom', source='local', path=YOLOV_MODEL, force_reload=True)
         return model
 
