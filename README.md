@@ -9,6 +9,6 @@ For use this repo clone yolov:
 
 install requirements from yolov repo
 
-site: http://denta.lamart.site:8501/
+site: http://denta.lamart.site/
 
 Roooiz and Ilya_Bat9 are the best friend!
