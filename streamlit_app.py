@@ -9,6 +9,8 @@ PATH_TO_YLOLOV = 'yolov5'
 class ObjectDetection:
     
     def __init__(self, path_to_photo):
+        self.yolov_model = 'best-2.02.pt'
+        self.path_to_ylolov = 'yolov5'
         self.path_to_photo = path_to_photo
         self.model = self.load_model()
         self.classes = self.model.names
@@ -21,7 +23,7 @@ class ObjectDetection:
     def load_model(self, PATH_TO_YLOLOV, YOLOV_MODEL):
         PATH_TO_YLOLOV=PATH_TO_YLOLOV
         YOLOV_MODEL=YOLOV_MODEL
-        model = torch.hub.load(PATH_TO_YLOLOV, 'custom', source='local', path=YOLOV_MODEL, force_reload=True)
+        model = torch.hub.load(self.path_to_ylolov, 'custom', source='local', path=self.yolov_model, force_reload=True)
         return model
 
     def score_frame(self, frame):
