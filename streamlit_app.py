@@ -2,8 +2,8 @@ import torch
 import numpy as np
 import cv2
 
-global YOLOV_MODEL = 'best-2.02.pt'
-global PATH_TO_YLOLOV = 'yolov5'
+YOLOV_MODEL = 'best-2.02.pt'
+PATH_TO_YLOLOV = 'yolov5'
 
 class ObjectDetection:
     
