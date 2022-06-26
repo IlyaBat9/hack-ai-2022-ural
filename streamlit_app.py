@@ -2,6 +2,7 @@ import torch
 import numpy as np
 import cv2
 
+
 YOLOV_MODEL = 'best-2.02.pt'
 PATH_TO_YLOLOV = 'yolov5'
 
